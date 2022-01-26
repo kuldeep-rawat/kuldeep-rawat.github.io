@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BotDeep</title>
+        <meta name="author" content="Kuldeep Rawat">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#000000">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/weathery.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-light" style="background-color: #f9f9f9a3!important;">
+                <div class="container justify-content-center">
+                  <a  href="https://thekuldeeprawat.github.io">
+                    <img class="justify-content-center" src="Assets/logo.svg" alt="kuldeep rawat logo" width="35" height="35">
+                  </a> <span class="ml-2"><b>PROJECT</b> | BotDeep</span> 
+                </div>
+              </nav>
+        </header>
+        <div class="container text-center mt-4 pt-4">
+          <span class="display-1 mt-4">&#129302;</span>
+          <div class="p-2"> 
+              <span class="h1 font-weight-bold">BOTDEEP</span> 
+          </div>
+          <span class="h5 font-weight-bold text-muted text-center p-2">A Bot with Deep knowledge is here to answer your question.</span>
+      </div>
+
+      <footer class="mt-4">
+        <hr>
+        <div class="container">
+            <div class="Intro">
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="p-2 bd-highlight text-center text-muted">Looking Where to follow me?
+                        <br>Here I'm </div>
+                </div>
+                <div class="bd-highlight text-center h6 text-muted">
+                    <a href="https://github.com/thekuldeeprawat" target="_blank" title="Github"><img src="Assets/icon/github.gif" class="p-1 mx-1 icon" alt="Kuldeep Rawat github"></a>
+                    <a href="https://www.linkedin.com/in/thekuldeeprawat" target="_blank" title="Linkedin"><img src="Assets/icon/linkedin.svg" class="p-1 mx-1 icon" alt="Kuldeep Rawat Linkedin"></a>
+                    <a href="https://www.instagram.com/thekuldeeprawat" target="_blank" title="Instagram"><img src="Assets/icon/instagram.gif" class="p-1 mx-1 icon" alt="Kuldeep Rawat instagram"></a>
+                    <a href="https://www.dribbble.com/kuldeeprawat" target="_blank" title="dribbble"><img src="Assets/icon/dribbble-B.svg" class="p-1 mx-1 icon" alt="Kuldeep Rawat Dribbble"></a>
+                    <a href="mailto:kuldeeprawat725@gmail.com" target="_blank" title="Email"><img src="Assets/icon/gmail-logo.gif" class="p-1 mx-1 icon-big" alt="Kuldeep Rawat Email"></a>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="p-2 bd-highlight text-center text-muted">Feel free to contact me :)</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="p-2 bd-highlight text-center text-muted mb-4">Made with &#128150; by <a href="https://thekuldeeprawat.github.io">Kuldeep Rawat</a></div>
+    </footer>
+
+<!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "113165247870341");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+</body>
+</html>
