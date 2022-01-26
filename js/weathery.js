@@ -94,5 +94,4 @@ function scrollDown(event){
     if (event.keyCode == 13 && flag == false) {
         window.scrollBy(0, 250);
         flag = true;
-     }
-}
+     }}
